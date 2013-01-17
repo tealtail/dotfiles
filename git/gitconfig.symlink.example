@@ -31,8 +31,12 @@
 [help]
         autocorrect = 1
 [push]
+<<<<<<< HEAD:git/gitconfig.symlink.example
         # See `git help config` (search for push.default)
         # for more information on different options of the below setting.
         #
         # Setting to git 2.0 default to surpress warning message
         default = simple
+=======
+	default = simple
+>>>>>>> added my own specifics:git/gitconfig.symlink

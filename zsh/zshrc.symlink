@@ -27,6 +27,10 @@ do
   source $file
 done
 
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit
