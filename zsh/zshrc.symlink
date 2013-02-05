@@ -30,6 +30,7 @@ done
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
+. ~/nvm/nvm.sh
 
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
