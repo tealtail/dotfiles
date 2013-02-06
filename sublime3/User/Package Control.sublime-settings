@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
@@ -19,5 +20,11 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"TrailingSpaces"
+=======
+	"installed_packages":
+	[
+		"Dayle Rees Color Schemes",
+		"Package Control"
+>>>>>>> Changed sublime2 scripts/symlinks to sublime3
 	]
 }

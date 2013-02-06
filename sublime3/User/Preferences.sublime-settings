@@ -1,7 +1,6 @@
-// Settings in here override those in "Default/Base File.sublime-settings", and
-// are overridden in turn by file type specific settings. Place your settings
-// here, to ensure they're preserved when upgrading.
 {
+	"color_scheme": "Packages/Dayle Rees Color Schemes/FreshCut.tmTheme",
+	"font_size": 12.0,
   "vintage_start_in_command_mode": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
