@@ -1,5 +1,4 @@
 # Sample gitconfig
-#
 
 [hub]
         protocol = https

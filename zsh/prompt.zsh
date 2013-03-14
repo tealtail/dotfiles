@@ -78,3 +78,13 @@ precmd() {
   title "zsh" "%m" "%55<...<%~"
   set_prompt
 }
+<<<<<<< HEAD
+=======
+
+if [ -e /usr/local/bin/fortune ]
+  then
+    echo "$fg[magenta]$(fortune)$reset_color"
+  else
+    echo ""
+fi
+>>>>>>> Added fortune function to prompt
