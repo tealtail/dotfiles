@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
@@ -20,20 +19,5 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"TrailingSpaces"
-=======
-	"installed_packages":
-	[
-		"Backbone.js",
-		"CoffeeScript",
-		"Dayle Rees Color Schemes",
-<<<<<<< HEAD
-		"Package Control"
->>>>>>> Changed sublime2 scripts/symlinks to sublime3
-=======
-		"HTML Snippets",
-		"LESS",
-		"Package Control",
-		"Sass"
->>>>>>> Added fortune function to prompt
-	]
+		]
 }
