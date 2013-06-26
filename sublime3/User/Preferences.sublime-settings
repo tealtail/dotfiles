@@ -1,6 +1,9 @@
 {
-	"color_scheme": "Packages/Dayle Rees Color Schemes/Peacock.tmTheme",
-	"drawWhiteSpace": true,
+  "theme": "Flatland Dark.sublime-theme",
+	"color_scheme": "Packages/flatland/Theme - Flatland/Flatland.tmTheme",
+	"flatland_square_tabs": true,
+  "drawWhiteSpace": true,
+  "font_face": "Source Code Pro",
 	"font_size": 14,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -18,5 +21,13 @@
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+  "caret_style": "phase",
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "fade_fold_buttons": false,
+  "auto_complete_commit_on_tab": true,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "open_files_in_new_window": false
 }
