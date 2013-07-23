@@ -8,3 +8,7 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+#show/hide dotfiles in Finder
+alias dot_show='defaults write com.apple.Finder AppleShowAllFiles YES && killall Finder'
+alias dot_hide='defaults write com.apple.Finder AppleShowAllFiles NO && killall Finder'

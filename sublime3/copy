@@ -1,4 +1,4 @@
 #!/bin/sh
 
 rm -rf $ZSH/sublime3/User
-cp -R ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ $ZSH/sublime3
+cp -R ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User $ZSH/sublime3/User

@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 sublime2/User/Package\ Control.sublime-settings
 sublime2/User/Package Control.last-run
 sublime3/User/Package\ Control.sublime-settings
-sublime3/User/Package Control.last-run
-=======
-sublime3/User/Package\ Control.sublime-settings
 sublime3/User/Package\ Control.last-run
->>>>>>> pushing prompt changes and fixed sublime 3 setup script
+sublime3/User/Package\ Control.*
 git/gitconfig.symlink
