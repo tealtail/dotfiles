@@ -1,4 +1,64 @@
-syntax on
+" Vundle
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
 
-" Wrap gitcommit file types at the appropriate length
+Bundle 'gmarik/vundle'
+
+" My bundles
+Bundle 'ervandew/supertab'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'wincent/Command-T'
+Bundle 'koron/nyancat-vim'
+Bundle 'vim-scripts/ruby-matchit'
+
+" Ruby
+syntax on
 filetype indent plugin on
+
+set nocompatible
+
+
+set nocompatible
+set backspace=indent,eol,start " allow backspacing over everything in insert mode
+set history=500   " keep 500 lines of command line history
+set ruler   " show the cursor position all the time
+set showcmd   " display incomplete commands
+set autoindent
+set showmatch
+set nowrap
+set backupdir=~/.tmp
+set directory=~/.tmp " Don't clutter my dirs up with swp and tmp files
+set autoread
+set wmh=0
+set viminfo+=!
+set guioptions-=T
+set et
+set sw=2
+set smarttab
+set noincsearch
+set ignorecase smartcase
+set laststatus=2  " Always show status line.
+
+set autoindent " always set autoindenting on
+
+" Set the tag file search order
+set tags=./tags;
+
+" Get rid of the delay when hitting esc!
+set noesckeys
+
+" Make the omnicomplete text readable
+:highlight PmenuSel ctermfg=black
+
+
+
+
