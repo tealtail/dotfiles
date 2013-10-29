@@ -3,13 +3,8 @@
 [hub]
         protocol = https
 [user]
-<<<<<<< HEAD:git/gitconfig.symlink.example
         name = AUTHORNAME
         email = AUTHOREMAIL
-=======
-	name = Alicia Lauerman
-	email = allydevour@me.com
->>>>>>> pushing prompt changes and fixed sublime 3 setup script:git/gitconfig.symlink
 [credential]
         helper = GIT_CREDENTIAL_HELPER
 [alias]
