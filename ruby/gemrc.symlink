@@ -7,4 +7,5 @@
 :update_sources: true
 :verbose: true
 install: --no-document
+update: --no-document
 gem: --no-ri --no-rdoc

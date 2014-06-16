@@ -6,9 +6,10 @@ Bundle 'gmarik/vundle'
 
 " My bundles
 Bundle 'ervandew/supertab'
+Bundle 'mattn/emmet-vim'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'pangloss/vim-javascript'
 Bundle 'tomtom/tcomment_vim'
-Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
@@ -24,9 +25,7 @@ Bundle 'vim-scripts/ruby-matchit'
 syntax on
 filetype indent plugin on
 
-set nocompatible
-
-
+colorscheme toychest
 set nocompatible
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 set history=500   " keep 500 lines of command line history
@@ -58,7 +57,3 @@ set noesckeys
 
 " Make the omnicomplete text readable
 :highlight PmenuSel ctermfg=black
-
-
-
-

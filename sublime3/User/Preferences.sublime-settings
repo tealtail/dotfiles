@@ -1,9 +1,17 @@
 {
-	"color_scheme": "Packages/Dayle Rees Color Schemes/Juicy.tmTheme",
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 0,
+	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
 	"drawWhiteSpace": true,
 	"ensure_new_line_at_eof_on_save": true,
 	"font_face": "Meslo LG L DZ",
-	"font_size": 17,
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"itg_small_tabs": true,
 	"matchBracketsAngle": true,
 	"matchBracketsBraces": true,
 	"matchBracketsSquare": true,
@@ -12,10 +20,8 @@
 		80
 	],
 	"show_minimap": false,
-	"tab_size": 2,
-	"theme": "Flatland Dark.sublime-theme",
-	"trailing_spaces_include_current_line": false,
+	"tab_size": 4,
+	"theme": "itg.flat.dark.aqua.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"vintage_start_in_command_mode": true
+	"trim_trailing_white_space_on_save": true
 }

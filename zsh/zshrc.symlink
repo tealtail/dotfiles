@@ -32,6 +32,8 @@ export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
 . ~/nvm/nvm.sh
 
+PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit
