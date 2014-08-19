@@ -27,10 +27,7 @@ do
   source $file
 done
 
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-source /usr/local/bin/virtualenvwrapper.sh
-. ~/nvm/nvm.sh
+source ~/.nvm/nvm.sh
 
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
@@ -45,3 +42,6 @@ do
 done
 
 unset config_files
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

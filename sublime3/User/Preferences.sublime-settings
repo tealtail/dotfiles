@@ -6,7 +6,7 @@
 	"drawWhiteSpace": true,
 	"ensure_new_line_at_eof_on_save": true,
 	"font_face": "Meslo LG L DZ",
-	"font_size": 16,
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"Vintage"

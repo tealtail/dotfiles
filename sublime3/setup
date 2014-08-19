@@ -9,4 +9,4 @@ ln -s "$ZSH/sublime3/User" "$sublime_dir"
 
 # Grab the Flatland Theme
 cd "$sublime_dir"
-git clone git://github.com/thinkpixellab/flatland.git "Theme - Flatland"
+git clone git://github.com/itsthatguy/theme-itg-flat.git "Theme - itg.flat"
