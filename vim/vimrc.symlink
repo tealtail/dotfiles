@@ -2,3 +2,10 @@ syntax on
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
+
+"" Tabs. May be overriten by autocmd rules
+set tabstop=2
+set softtabstop=0
+set shiftwidth=2
+set expandtab
+
