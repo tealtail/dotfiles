@@ -7,6 +7,6 @@ sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 mv "$sublime_dir/User" "$sublime_dir/User.backup"
 ln -s "$ZSH/sublime3/User" "$sublime_dir"
 
-# Grab the Flatland Theme
+# Grab the Seti UI Theme
 cd "$sublime_dir"
-git clone git://github.com/itsthatguy/theme-itg-flat.git "Theme - itg.flat"
+git clone git://github.com/ctf0/Seti_ST3.git "Seti_UI"
