@@ -17,6 +17,7 @@ set splitright
 set splitbelow
 
 set hidden
+set number
 
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
 set shell=bash
@@ -26,3 +27,6 @@ augroup vimrc
   autocmd GuiEnter * set columns=120 lines=70 number
 augroup END
 
+if filereadable(expand('~/.vimrc.local'))
+  source ~/.vimrc.local
+endif

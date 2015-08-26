@@ -21,7 +21,6 @@ therubymug/vim-pyte
 tpope/vim-abolish
 tpope/vim-bundler
 tpope/vim-commentary
-tpope/vim-cucumber
 tpope/vim-endwise
 tpope/vim-eunuch
 tpope/vim-fugitive
@@ -45,3 +44,6 @@ vim-ruby/vim-ruby
 vim-scripts/bufexplorer.zip
 vim-scripts/bufkill.vim
 wgibbs/vim-irblack
+scrooloose/nerdtree
+scrooloose/syntastic
+chriskempson/base16-vim
