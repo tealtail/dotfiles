@@ -47,19 +47,19 @@ need_push () {
   fi
 }
 
-ruby_version() {
-  if (( $+commands[rbenv] ))
+node_version() {
+  if (( $+commands[node] ))
   then
-    echo "%{$fg_bold[yellow]%}$(rbenv version | awk '{print $1}')%{$reset_color%}"
+    echo "%{$fg_bold[yellow]%}$(node -v | awk '{print $1}')%{$reset_color%}"
   else
     echo ""
   fi
 }
 
-rb_prompt() {
-  if ! [[ -z "$(ruby_version)" ]]
+node_prompt() {
+  if ! [[ -z "$(node_version)" ]]
   then
-    echo "%{$fg_bold[yellow]%}$(ruby_version)%{$reset_color%} "
+    echo "%{$fg_bold[yellow]%}$(node_version)%{$reset_color%} "
   else
     echo ""
   fi
@@ -69,7 +69,7 @@ directory_name() {
   echo "%{$fg_bold[cyan]%}%1/%\/%{$reset_color%}"
 }
 
-export PROMPT=$'\n🐙  $(rb_prompt)in $(directory_name) $(git_dirty)$(need_push)\n› '
+export PROMPT=$'\n🐙  $(node_prompt)in $(directory_name) $(git_dirty)$(need_push)\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
