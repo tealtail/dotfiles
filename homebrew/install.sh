@@ -9,10 +9,18 @@
 if test ! $(which brew)
 then
   echo "  Installing Homebrew for you."
-  ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)" > /tmp/homebrew-install.log
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /tmp/homebrew-install.log
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark z
+brew install grc coreutils spark z hub
+
+# Install homebrew cask
+brew tap caskroom/cask
+
+# fonts
+brew tap caskroom/fonts
+brew cask install font-source-code-pro
+brew cask install font-meslo-lg
 
 exit 0

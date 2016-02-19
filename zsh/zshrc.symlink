@@ -1,6 +1,6 @@
 export ZSH=$HOME/.dotfiles
 
-export PROJECTS=~/Dropbox/projects
+export PROJECTS=~/Documents/projects
 
 if [[ -a ~/.localrc ]]
 then
@@ -27,7 +27,7 @@ source ~/.nvm/nvm.sh
 
 source `brew --prefix`/etc/profile.d/z.sh
 
-PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit

@@ -1,10 +1,13 @@
-#!/usr/bin/env bash
+#!/bin/sh
+set -x
+
+# copy pathogen
+echo "  Installing pathogen for you."
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 echo "  Installing vimbundles for you."
-if [ ! -d "$HOME/.vimbundles" ]; then
-  BASE="$HOME/.vim/bundle"
-else
-  BASE="$HOME/.vimbundles"
-fi
+
+BASE="$HOME/.vim/bundle"
 
 if [ "$1" = "log-since" ]; then
   echo "**logsince**"
