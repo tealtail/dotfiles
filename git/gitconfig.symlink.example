@@ -1,37 +1,45 @@
 # Sample gitconfig
 
 [hub]
-        protocol = https
+  protocol = https
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
+  name = AUTHORNAME
+  email = AUTHOREMAIL
 [credential]
-        helper = GIT_CREDENTIAL_HELPER
+  helper = GIT_CREDENTIAL_HELPER
 [alias]
-        co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributers = !$ZSH/bin/git-rank-contributers
-        count   = !git shortlog -sn
+  co = checkout
+  promote = !$ZSH/bin/git-promote
+  wtf = !$ZSH/bin/git-wtf
+  rank-contributers = !$ZSH/bin/git-rank-contributers
+  count = !git shortlog -sn
 [color]
-        diff = auto
-        status = auto
-        branch = auto
-        ui = true
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
 [core]
-        excludesfile = ~/.gitignore
-        editor = vim
+  excludesfile = ~/.gitignore
+  editor = vim
+  autocrlf = input
 [apply]
-        whitespace = nowarn
+  whitespace = nowarn
 [mergetool]
-        keepBackup = false
+  keepBackup = false
 [difftool]
-        prompt = false
+  prompt = false
 [help]
-        autocorrect = 1
+  autocorrect = 1
 [push]
-        # See `git help config` (search for push.default)
-        # for more information on different options of the below setting.
-        #
-        # Setting to git 2.0 default to surpress warning message
-        default = simple
+  # See `git help config` (search for push.default)
+  # for more information on different options of the below setting.
+  #
+  # Setting to git 2.0 default to surpress warning message
+  default = simple
+[pull]
+  # do a rebase instead of a merge when pulling
+  rebase = true
+[rerere]
+  # remember conflict resolutions
+  # https://www.theodo.fr/blog/2015/01/do-you-even-rerere/
+  enabled = true
