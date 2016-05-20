@@ -1,4 +1,12 @@
+atom.symlink/.apm
+atom.symlink/.node-gyp
+atom.symlink/.storage
+atom.symlink/blob-store
+atom.symlink/compile-cache/
+atom.symlink/packages
+atom.symlink/storage
+atom.symlink/themes
+
 sublime3/User/Package\ Control.*
-git/gitconfig.symlink
-bundle/
-.DS_Store
+
+git/gitconfig.local.symlink

@@ -39,7 +39,7 @@
         "paths": {
             "linux": [],
             "osx": [
-                "/Users/tealtail/.nvm/versions/v4.3.0/bin/node"
+                "/Users/tealtail/.nvm/versions/node/v4.4.1/bin"
             ],
             "windows": []
         },

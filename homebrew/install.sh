@@ -9,18 +9,16 @@
 if test ! $(which brew)
 then
   echo "  Installing Homebrew for you."
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /tmp/homebrew-install.log
+
+  # Install the correct homebrew for each OS type
+  if test "$(uname)" = "Darwin"
+  then
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  elif test "$(expr substr $(uname -s) 1 5)" = "Linux"
+  then
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+  fi
+
 fi
-
-# Install homebrew packages
-brew install grc coreutils spark z hub
-
-# Install homebrew cask
-brew tap caskroom/cask
-
-# fonts
-brew tap caskroom/fonts
-brew cask install font-source-code-pro
-brew cask install font-meslo-lg
 
 exit 0
