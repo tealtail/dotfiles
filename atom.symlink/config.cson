@@ -16,7 +16,7 @@
       "vendor"
     ]
     themes: [
-      "seti-ui"
+      "atom-dark-ui"
       "behave-theme"
     ]
   editor:
