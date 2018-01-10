@@ -8,6 +8,9 @@ syntax on
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
 
+set nobackup
+set noswapfile
+
 set visualbell
 
 set wildmenu

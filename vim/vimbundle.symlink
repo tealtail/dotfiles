@@ -47,3 +47,4 @@ wgibbs/vim-irblack
 scrooloose/nerdtree
 scrooloose/syntastic
 chriskempson/base16-vim
+hashivim/vim-terraform
