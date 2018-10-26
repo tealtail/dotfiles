@@ -28,6 +28,7 @@ brew 'trash'
 brew 'unrar'
 brew 'wget'
 brew 'yarn', args: ['without-node']
+brew 'youtube-dl'
 
 cask 'font-source-code-pro'
 cask 'font-meslo-nerd-font'
