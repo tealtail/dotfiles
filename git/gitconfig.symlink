@@ -17,7 +17,6 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
-        autocrlf = input
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -40,7 +39,9 @@
         clean = git-lfs clean %f
         smudge = git-lfs smudge %f
         required = true
-[user]
-	signingkey = 215A6175
-[commit]
-	gpgsign = true
+[diff "spaceman-diff"]
+        command = /opt/homebrew/bin/spaceman-diff
+[init]
+        defaultBranch = main
+[includeIf "gitdir:~/Documents/dev/"]
+        path = ~/.gitconfig.work
